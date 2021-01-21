@@ -1,7 +1,7 @@
 from Utilities.Configuration import getQuery
 
 
-def addBody(ISBN):
+def addBody(ISBN, Aisle):
     body = {
 
         "name": "Learn Appium Automation with Java",

@@ -1,6 +1,7 @@
 import requests
 import json
 
+
 response = requests.post('https://reqres.in/api/users', json={
 
         "name": "morpheusl",

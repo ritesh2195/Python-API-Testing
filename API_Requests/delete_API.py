@@ -10,9 +10,7 @@ headers = {'Content-Type': 'application/json'}
 
 url = getConfig()['API Testing']['EndPoint'] + AddResources.AddBook
 
-response = requests.post(url, json=DBPayLoad(query),
-                         headers=headers
-                         )
+response = requests.post(url, json=DBPayLoad(query), headers=headers)
 
 print(response.json())
 
