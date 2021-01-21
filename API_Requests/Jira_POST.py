@@ -61,7 +61,7 @@ json_body = json.dumps(f, indent=4)
 
 url = 'https://riteshautomation.atlassian.net/rest/api/2/issue'
 
-authentication = ('riteshranjanmishra938@gmail.com', '5W4ViEe5qcxoviSN5IDY3B09')
+authentication = ('userid', 'APIKEY')
 
 header = {'Content-Type': 'application/json'}
 
