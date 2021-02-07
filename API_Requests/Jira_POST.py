@@ -57,7 +57,7 @@ p['issuetype'] = b
 
 f['fields'] = p
 
-json_body = json.dumps(f, indent=4)
+json_body = json.loads(f, indent=4)
 
 url = 'https://riteshautomation.atlassian.net/rest/api/2/issue'
 
@@ -68,3 +68,8 @@ header = {'Content-Type': 'application/json'}
 response = requests.post(url, auth=authentication, headers=header, json=f)
 
 print(response.json())
+
+print(type(response))
+
+print(type(response.json()))
+

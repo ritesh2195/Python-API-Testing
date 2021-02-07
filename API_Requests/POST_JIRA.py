@@ -21,5 +21,6 @@ response = requests.post('https://riteshautomation.atlassian.net/rest/api/2/issu
 
                          json=body)
 
+
 print(response.json())
 print(response.status_code)
