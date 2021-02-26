@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d098a85-4654-470c-a7b0-e1bd4847dbb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_Requests/Get_Jira_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_Requests/Get_Jira_API.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_Requests/Jira_POST.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_Requests/Jira_POST.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_Requests/POST_JIRA.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_Requests/POST_JIRA.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

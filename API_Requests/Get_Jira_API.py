@@ -14,6 +14,8 @@ response = sc.get('https://riteshautomation.atlassian.net/rest/api/2/issue/BAN-3
 
 json_response = response.json()
 
+print(type(json_response))
+
 fields = json_response['fields']
 
 print(type(fields['issuetype']))
