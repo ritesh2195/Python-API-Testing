@@ -6,7 +6,7 @@ import requests
 
 sc = requests.Session()
 
-sc.auth = ('riteshranjanmishra938@gmail.com', '5W4ViEe5qcxoviSN5IDY3B09')
+sc.auth = ('email', 'apikey')
 
 sc.headers.update({'Content-Type': 'application/json'})
 
